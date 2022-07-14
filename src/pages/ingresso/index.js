@@ -11,7 +11,7 @@ export default function Index(){
     const [total,setTotal] = useState(0);
 
    async function calcular(){
-     const  resp= await   axios.post('http://localhost:5000/dia2/ingressocinema',
+     const  resp= await axios.post('http://localhost:5000/dia2/ingressocinema',
         {
          qtdInteira:  qtdInteiras,
          qtdMeia:     qtdMeias,
